@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		999E02002B0F86860021EA83 /* ToDoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999E01FF2B0F86860021EA83 /* ToDoRowView.swift */; };
 		99AF04BB2AF23C5D0017DCFA /* EthanGardenAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AF04BA2AF23C5D0017DCFA /* EthanGardenAppApp.swift */; };
 		99AF04BD2AF23C5D0017DCFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AF04BC2AF23C5D0017DCFA /* ContentView.swift */; };
 		99AF04BF2AF23C5D0017DCFA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AF04BE2AF23C5D0017DCFA /* Item.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		999E01FF2B0F86860021EA83 /* ToDoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRowView.swift; sourceTree = "<group>"; };
 		99AF04B72AF23C5D0017DCFA /* EthanGardenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EthanGardenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99AF04BA2AF23C5D0017DCFA /* EthanGardenAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthanGardenAppApp.swift; sourceTree = "<group>"; };
 		99AF04BC2AF23C5D0017DCFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 		99AF04AE2AF23C5D0017DCFA = {
 			isa = PBXGroup;
 			children = (
+				999E01FF2B0F86860021EA83 /* ToDoRowView.swift */,
 				99AF04B92AF23C5D0017DCFA /* EthanGardenApp */,
 				99AF04B82AF23C5D0017DCFA /* Products */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99AF04BD2AF23C5D0017DCFA /* ContentView.swift in Sources */,
+				999E02002B0F86860021EA83 /* ToDoRowView.swift in Sources */,
 				99AF04BF2AF23C5D0017DCFA /* Item.swift in Sources */,
 				99AF04BB2AF23C5D0017DCFA /* EthanGardenAppApp.swift in Sources */,
 			);

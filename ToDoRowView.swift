@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct ToDoRowView: View {
+    
+    var todoname = "XYZ"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            
+            Text("To Do:")
+                .fontWeight(.semibold)
+                .foregroundColor(Color.blue)
+                .padding(.all)
+            
+            Text(todoname)
+                .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            
+        }
+        
     }
 }
 
